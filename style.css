@@ -1,0 +1,180 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.headerPage {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 45px;
+    background-color: black;
+    border-bottom: 2px solid rgb(2, 206, 104);
+    ;
+}
+
+.headerPage a {
+    text-decoration: none;
+    align-content: center;
+    color: #F0F2EB;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+}
+
+.headerPage a:hover {
+    color: rgb(2, 206, 104);
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3%;
+
+}
+
+.list_character {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list_character a {
+    display: flex;
+    justify-content: center;
+}
+
+.list_character h2 {
+    font-size: 22px;
+}
+
+.list_character img {
+    border-radius: 25px;
+    box-shadow: 0px 0px 0px 3px rgb(0, 255, 128);
+    width: 70%;
+}
+
+.button_characters {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+
+.button_characters button {
+    padding: 12px;
+    font-size: 25px;
+    border-radius: 100px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    border: 3px solid rgb(0, 0, 0);
+    color: white;
+    background-color: rgb(0, 255, 128);
+    cursor: pointer;
+}
+
+.containerIntroduction .imageIntroduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.containerIntroduction .imageIntroduction h1 {
+    font-size: 65px;
+    font-weight: bolder;
+}
+
+.containerIntroduction .imageIntroduction img {
+    border-radius: 25px;
+    width: 100%;
+}
+
+.containerAbout h1,
+h2 {
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.containerAbout .firstContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerAbout .firstContainer p {
+    padding: 1% 10% 0 10%;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.containerAbout .secondContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerAbout .secondContainer p {
+    text-align: center;
+    font-size: 20px;
+    padding: 1% 10% 0 10%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.moreAboutAdultSwim .ContainerCharacters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    padding: 0 25% 0 25%;
+}
+
+.moreAboutAdultSwim .ContainerCharacters img {
+    max-width: 400px;
+    height: 400px;
+    border-radius: 15px;
+}
+
+.moreAboutAdultSwim .ContainerCharacters h3 {
+    font-size: 25px;
+}
+
+.detailsCharacters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detailsCharacters h2 {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.detailsCharacters img {
+    width: 15%;
+    border-radius: 15px;
+    border: 4px solid rgb(0, 255, 128);
+    ;
+}
+
+.detailsCharacters .infoCharacter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detailsCharacters .infoCharacter h3 {
+    font-size: 23px;
+}
